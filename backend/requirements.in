@@ -2,12 +2,17 @@
 fastapi
 uvicorn[standard]
 pydantic[email]
+ujson
+email-validator
+python-multipart
+
+# JWT & Auth
+fastapi-users[mongodb]
 
 # Database
 motor
 dnspython
 
 # Development
-pip-tools
 black
 flake8
